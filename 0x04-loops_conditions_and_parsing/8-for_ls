@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script displays the files of the working directory
+for file in *; do
+    echo "${file##*-}"
+done
