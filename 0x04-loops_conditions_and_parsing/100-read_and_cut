@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Read /etc/passwd file and displays info.
+input="/etc/passwd"
+while read -r line; do
+    echo "$line" | cut -d ':' -f1,3,6
+done < "$input"
