@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # caght signals
+trap "I am invincible!!!" SIGTERM
 while true; do
     echo "To infinity and beyond"
     sleep 2
-    trap "I am invincible!!!" SIGTERM
 done
