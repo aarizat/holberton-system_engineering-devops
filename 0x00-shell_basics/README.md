@@ -106,6 +106,9 @@ What you should learn from this project:
 #### [18. Life is a series of commas, not periods](./18-commas)
 * Write a command that lists all the files and directories of the current directory, separated by commas (,).
 
+
+## Author
+
 ### Andres Ariza-Triana
 
 * [**Github**](https://github.com/aarizat)
