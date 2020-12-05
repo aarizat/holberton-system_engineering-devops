@@ -23,7 +23,7 @@ The projects developed were the followings:
 ## Dependencias
 
 - All the files were compiled on Ubuntu 14.04 LTS
-- The code use the [Shellcheck](https://github.com/koalaman/shellcheck) `version 0.3.3-1~ubuntu14.04.1`
+- The code use  [Shellcheck](https://github.com/koalaman/shellcheck) style `version 0.3.3-1~ubuntu14.04.1`
 
 ## Installing
 
