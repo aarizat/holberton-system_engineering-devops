@@ -66,7 +66,9 @@ What you should learn from this project:
 #### [11. Don't just count your directories, make your directories count](./11-directories)
 * Write a script that counts the number of directories and sub-directories in the current directory.
 
-#### Andres Ariza-Triana
+## Author
+
+### Andres Ariza-Triana
 
 * [**Github**](https://github.com/aarizat)
 * [**Linkedin**](https://www.linkedin.com/in/aarizatr/)
