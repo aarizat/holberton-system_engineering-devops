@@ -6,10 +6,9 @@
 # - can’t use systemctl for restarting nginx
 
 apt-get -y update
+sudo apt-get -y upgrade
 apt-get -y install nginx
 
-ufw allow  'Nginx HTTP'
-
-echo 'Holberton School' > /var/www/html/index.nginx-debian.html
-
 sudo /usr/sbin/service nginx restart
+
+echo "Holberton School" | sudo tee /var/www/html/index.nginx-debian.html
