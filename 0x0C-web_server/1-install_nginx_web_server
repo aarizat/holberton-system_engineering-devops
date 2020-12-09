@@ -5,9 +5,9 @@
 # - it must return a page that contains the string Holberton School
 # - can’t use systemctl for restarting nginx
 
-apt-get -y update
+sudo apt-get -y update
 sudo apt-get -y upgrade
-apt-get -y install nginx
+sudo apt-get -y install nginx
 
 sudo /usr/sbin/service nginx restart
 
