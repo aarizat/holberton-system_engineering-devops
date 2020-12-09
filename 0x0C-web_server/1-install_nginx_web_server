@@ -1,0 +1,14 @@
+# install nginx on a server.
+# Requirements:
+# - Nginx should be listening on port 80
+# - it must return a page that contains the string Holberton School
+# - can’t use systemctl for restarting nginx
+
+apt-get update
+apt-get -y install nginx
+
+sudo ufw allow 'Nginx HTTP'
+
+echo "Holberton School" > /etc/nginx/html/index.html
+
+service nginx restart
