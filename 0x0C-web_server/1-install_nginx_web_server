@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # install nginx on a server.
 # Requirements:
 # - Nginx should be listening on port 80
