@@ -1,3 +1,9 @@
+<p align="center">
+     <p align="center">
+          <img src="https://www.holbertonschool.com/holberton-logo.png" width="360"/>
+     </p>
+
+
 # System engineering & DevOps - Bash, Scripting, Networking and Web stack
 
 This repository contains the projects I developed during my time at Holberton
