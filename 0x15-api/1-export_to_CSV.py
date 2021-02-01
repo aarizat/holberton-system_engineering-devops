@@ -16,5 +16,5 @@ if __name__ == "__main__":
     data = [(p.get("userId"), username, p.get("completed"), p.get("title"))
             for p in posts]
     with open("{}.csv".format(sys.argv[1]), mode="w") as out:
-        write = csv.writer(out)
+        write = csv.writer(out, quoting=csv.QUOTE_ALL)
         write.writerows(data)
