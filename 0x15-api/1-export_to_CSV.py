@@ -8,11 +8,11 @@ import sys
 
 
 if __name__ == "__main__":
-    user = requests.get("https://jsonplaceholder.typicode.com/users?id={}"
+    user = requests.get("https://jsonplaceholder.typicode.com/users/{}"
                         .format(sys.argv[1])).json()
     posts = requests.get("https://jsonplaceholder.typicode.com/todos?userId={}"
                          .format(sys.argv[1])).json()
-    username = user[0].get("username")
+    username = user.get("username")
     data = [(p.get("userId"), username, p.get("completed"), p.get("title"))
             for p in posts]
     with open("{}.csv".format(sys.argv[1]), mode="w") as out:
