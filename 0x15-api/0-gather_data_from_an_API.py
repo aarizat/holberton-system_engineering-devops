@@ -16,5 +16,5 @@ if __name__ == "__main__":
     print("Employee {} is done with tasks({}/{}):".format(username,
                                                           len(titles),
                                                           len(posts)))
-    print("\t", end='')
-    print("\n\t".join(titles))
+    print("\t ", end='')
+    print("\n\t ".join(titles))
