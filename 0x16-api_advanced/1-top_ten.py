@@ -11,7 +11,8 @@ def top_ten(subreddit):
     listed for a given subreddit. If not a valid subreddit, print None.
     """
     url = "https://www.reddit.com/r/{}/hot.json?limit=10".format(subreddit)
-    head = {"User-Agent": "aarizat"}
+    head = requests.utils.default_headers()
+    # head = {"User-Agent": "aarizat"}
     r = requests.get(url, headers=head, allow_redirects=False)
     if r.status_code == 404:
         print(None)
